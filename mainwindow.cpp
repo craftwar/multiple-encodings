@@ -18,7 +18,7 @@ MainWindow::MainWindow(QWidget *parent) :
         label_[i].setParent(ui->centralWidget);
         textEdit_[i].setGeometry(QRect(col? 500: 20, 40 + 170*row, 361, 111));
         label_[i].setText(encodings[i]);
-        label_[i].setGeometry(QRect(col? 630: 170, 20 + 170*row , 47, 12));
+        label_[i].setGeometry(QRect(col? 630: 170, 20 + 170*row , 67, 12));
 
     }
 }

@@ -6,7 +6,7 @@
 #include <QLabel>
 
 //static const char *encodings[] = {"EUC-JP", "ISO 2022-JP", "Shift-JIS", "UTF-16BE", "UTF-16LE"};
-static const char *encodings[] = {"UTF-8", "Shift-JIS", "UTF-16", "UTF-16BE", "UTF-16LE"};
+static const char *encodings[] = {"UTF-8", "Shift-JIS", "EUC-JP", "ISO 2022-JP", "UTF-16", "UTF-16BE", "UTF-16LE"};
 static constexpr unsigned char encoding_nums = sizeof(encodings) / sizeof(encodings[0]);
 
 namespace Ui {
